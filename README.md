@@ -34,26 +34,3 @@ Antes de comenzar, asegúrate de tener instalados los siguientes componentes:
 2. **Ejecutar proyecto**
    ```bash
    python manage.py runserver
-### Arbol de Proyecto
-
-LowCode/
-│
-├── LowCode/         # Configuración del proyecto
-│   ├── __init__.py
-│   ├── settings.py            # Configuración principal del proyecto
-│   ├── urls.py                # Enrutamiento de URL
-│   └── wsgi.py
-│
-├── GestorGastos/                  # Aplicación específica
-│   ├── migrations/            # Migraciones de base de datos
-│   ├── static/                # Archivos estáticos
-│   ├── templates/             # Plantillas HTML
-│   ├── admin.py               # Configuración del administrador
-│   ├── apps.py                # Configuración de la aplicación
-│   ├── models.py              # Modelos de base de datos
-│   ├── tests.py               # Pruebas unitarias
-│   └── views.py               # Vistas de la aplicación
-│
-├── manage.py                  # Herramienta de línea de comandos de Django
-├── requirements.txt           # Lista de dependencias
-└── .env                       # Variables de entorno
