@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'GestorGastos.apps.GestorgastosConfig'
+    'GestorGastos.apps.GestorgastosConfig',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
